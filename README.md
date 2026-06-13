@@ -115,6 +115,8 @@ Purpose:
 
 - Separate execution noise from structural planning issues.
 
+![Sportswear Analysis Framework](images/sportswear_analysis_framework.png)
+
 ---
 
 ## Excel Workflow
@@ -150,6 +152,8 @@ Workbook Structure:
 ## SQL Analytics Pipeline
 
 The Excel logic was rebuilt in MySQL using a layered analytics architecture.
+
+![SQL Analytics Pipeline](images/sql_pipeline.png)
 
 ### Layer 1 — Gap Detection
 
@@ -279,6 +283,13 @@ Interpretation:
 Demand consistently exceeded realized sales over an extended period.
 
 This pattern indicates a structural planning or allocation issue rather than episodic execution problems.
+
+| Trend | Total Financial Impact | Persistence Rate | Max Run Length |
+|---------|---------:|---------:|---------:|
+| Sportswear | ₹812,100 | 46.8% | 7 |
+| Cargo Pants | ₹6,202,000 | 98.9% | 94 |
+
+![Cumulative_Financial_Risk](/images/cumulative_financial_risk.png)
 
 ---
 
