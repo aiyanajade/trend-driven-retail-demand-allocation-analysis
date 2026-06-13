@@ -6,7 +6,7 @@ Retail organizations often react to sales volatility as if it reflects demand vo
 
 This project combines Google Trends demand signals with apparel sales data to investigate whether observed sales patterns reflect true demand changes or demand–supply misalignment.
 
-Using Excel and SQL, a structured analytical framework was built to:
+Using Excel and SQL, this project develops a structured analytical framework to:
 
 - Compare demand and sales behavior at a weekly trend level
 - Measure persistence of demand–sales gaps
@@ -119,7 +119,7 @@ Purpose:
 
 ---
 
-## Excel Workflow
+## Data Preparation & Excel Analysis
 
 The analysis was initially developed in Excel using the following workflow:
 
